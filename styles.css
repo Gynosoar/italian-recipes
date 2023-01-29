@@ -1,19 +1,42 @@
-h1, h4 {
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
     text-align: center;
-    color: blue;
-    font-family: monospace;
+    max-width: 700px;
 }
 
-.links {
-    text-align: center;
-    font-weight: 900;
+body {
+    background-color: antiquewhite;
 }
 
-h4 {
-    color: red;
-    background-color: aqua;
+h1 {
+    border: 10px solid peru;
+    padding: 30px;
+    margin: 20px;
+    background-color: blueviolet;
+}
+
+.image {
+    width: 400px;
+    height: auto;
+    margin-bottom: 50px;
 }
 
 .quote {
-    font-size: 32px;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 470px;
+    background-color: tan;
+}
+
+span {
+    display: block;
+}
+
+.links {
+    display: inline-block;
+    margin-top: 100px;
+    border: solid 1px;
+    padding: 30px;
 }

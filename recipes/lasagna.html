@@ -5,6 +5,25 @@
         <meta charset="UTF-8">
         <title>Lasagna</title>
         <link rel="stylesheet" href="../styles.css">
+        <style>
+            h3 {
+                margin: 30px;
+            }
+            
+            .ingredients, 
+            .instructions {
+                display: inline-block;
+                width: 200px;
+                border: solid 2px black;
+                margin: 50px;
+                padding: 10px;
+                border-radius: 20px;
+            }
+
+            a {
+                display: block;
+            }
+        </style>
     </head>
 
     <body>
@@ -12,21 +31,25 @@
         <img src="../images/yummy-lasagna.jpeg" alt="lasagna">
         <h3>A delicious pasta cake, spaghetti cassarole, even.</h3>
         <p>Lasagna is a wide, flat sheet of pasta. Lasagna can refer to either the type of noodle or to the typical lasagna dish which is a dish made with several layers of lasagna sheets with sauce and other ingredients, such as meats and cheese, in between the lasagna noodles.</p>
-        <h2>Ingredients</h2>
         
-        <ul>
+        <div class="ingredients">
+          <h2>Ingredients</h2>
+          <ul>
             <li>Cheese</li>
             <li>Basil</li>
             <li>Marinara</li>
-        </ul>
+          </ul>
+        </div>
 
-        <h2>Instructions</h2>
+        <div class="instructions">
+          <h2>Instructions</h2>
+            <ol>
+              <li>Buy ingredients</li>
+              <li>Use ingredients</li>
+              <li>Enjoy ingredients</li>
+            </ol>
+        </div>
 
-        <ol>
-            <li>Buy ingredients</li>
-            <li>Use ingredients</li>
-            <li>Enjoy ingredients</li>
-        </ol>
         <a href="../index.html">Back to Home</a>
     </body>
 </html>
